@@ -1,0 +1,1 @@
+SELECT count(*) FROM (SELECT count(A.UserID) FROM Item AS A, User AS B WHERE  A.UserID = B.UserID AND B.Rating > 1000 GROUP BY A.UserID);

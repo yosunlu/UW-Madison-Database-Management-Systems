@@ -1,0 +1,1 @@
+SELECT count(*) FROM (SELECT count(*)  FROM Bid AS A,  Category AS B WHERE CAST(A.Amount AS REAL) > 100 AND B.ItemID = A.ItemID GROUP BY B.Name); 

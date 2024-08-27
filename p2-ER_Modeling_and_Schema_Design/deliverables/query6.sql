@@ -1,0 +1,1 @@
+SELECT count(*) FROM (SELECT count(*) FROM Item AS A, Bid AS B WHERE A.UserID = B.UserID  GROUP BY A.UserID);
