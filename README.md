@@ -1,5 +1,5 @@
 # UW-Madison-Database-Management-Systems
-These are the projects I completed in CS564: Operating Systems in Spring, 2023. The main objectes of each are listed below:
+These are the projects I completed in CS564: DBMS in Spring, 2023. The main objectives of each are listed below:
 1. **SQL** 
     - To familiarize with SQL commands
 2. **ER Modelling and Schema Design**
